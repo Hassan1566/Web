@@ -184,6 +184,7 @@ img {
 .gradient-text {
     background: linear-gradient(90deg, var(--first-color), hsl(var(--hue), 80%, 70%));
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: var(--font-extrabold);
 }
